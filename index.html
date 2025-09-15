@@ -42,7 +42,7 @@
     <section id="about">
       <h2>About Me</h2>
       <p>I am a researcher in theoretical computer science, currently long-term visitor at Institute of Science and Technology Austria, in the group lead by Thomas A. Henzinger.
-        I holda Master's degree from ENS Paris-Saclay, and a PhD from Université libre de Bruxelles (Belgium), realised under the supervision of Jean-François Raskin and Marie van den Bogaard.
+        I hold a Master's degree from ENS Paris-Saclay (France), and a PhD from Université libre de Bruxelles (Belgium), realised under the supervision of Jean-François Raskin and Marie van den Bogaard.
         My research focuses on game theory, with applications to formal verification and synthesis of reactive systems, secure protocols, and more generally multi-agent systems.
         I use he/him pronouns, and you can reach out to me in English, French, or Spanish/Castilian.
       </p>
@@ -60,15 +60,15 @@
         The most classical notion of equilibrium is the <em>Nash equilibrium</em>, where no player can improve their outcome by changing their own strategy, if the other players keep their strategies unchanged.
         Nash equilibria were extensively studied in the literature.
         However, I contributed to this line of work with results about the complexity of Nash equilibria in energy and in discounted-sum games (MFCS 2023).
-        With A. Asadi, K. Chatterjee, and K. S. Thejaswini, we also studied the complexity of stationary Nash equilibria in stochastic games, by proposing a new approximation algorithm (FSTTCS 2025).
+        More recently, we studied the complexity of stationary Nash equilibria in stochastic games, by proposing a new approximation algorithm (FSTTCS 2025).
       </p>
       <ul>
         <li>L. Brice, J.-F. Raskin, M. van den Bogaard, "Rational Verification and Checking for Nash and Subgame-perfect Equilibria in Graph Games", MFCS 2023 <a href="https://arxiv.org/pdf/2301.12913" target="_blank">(ArXiv)</a></li>
-        <li>A. Asadi, L. Brice, K. Chatterjee, K. S. Thejaswini, "ε-Stationary Nash Equilibria in Multi-player Stochastic Graph Games", FSTTCS 2025 <a href="https://arxiv.org/pdf/2508.15356" target="_blank">(ArXiv))</a></li>
+        <li>A. Asadi, L. Brice, K. Chatterjee, K. S. Thejaswini, "ε-Stationary Nash Equilibria in Multi-player Stochastic Graph Games", FSTTCS 2025 <a href="https://arxiv.org/pdf/2508.15356" target="_blank">(ArXiv)</a></li>
       </ul>
       <p><b>Subgame-perfect equilibria:  </b>
         An significant part of my PhD focused on a refinement of Nash equilibria, called <em>subgame-perfect equilibria</em> (SPEs).
-        Those are defined as Nash equilibria with the additional requirement that the strategies that the players plan to follow, after any possible history of the game, must also form a Nash equilibrium: the players mare then not allowed to threaten each other with irrational behaviour.
+        Those are defined as Nash equilibria with the additional requirement that the strategies that the players plan to follow, after any possible history of the game, must also form a Nash equilibrium: the players are then not allowed to threaten each other with irrational behaviour.
         With J.-F. Raskin and M. van den Bogaard, we defined the <em>negotiation function</em> (LMCS 2023), a conceptual and algorithmic tool to characterise the set of SPE outcomes in a game.
         That lead to results about the complexity of SPEs in parity games (CSL 2022) and mean-payoff games (ICALP 2022).
         We also studied related rational verification problems in those games, as well as in energy and discounted-sum games (MFCS 2023).
@@ -76,7 +76,7 @@
       <ul>
         <li>L. Brice, J.-F. Raskin, M. van den Bogaard, "Subgame-perfect Equilibria in Mean-payoff Games", CONCUR 2021 <a href="https://arxiv.org/pdf/2101.10685" target="_blank">(ArXiv))</a> and LMCS 2023 <a href="https://lmcs.episciences.org/12466/pdf" target="_blank">(LMCS)</a></li>
         <li>L. Brice, J.-F. Raskin, M. van den Bogaard, "On the Complexity of SPEs in Parity Games", CSL 2022 <a href="https://arxiv.org/pdf/2107.07458" target="_blank">(ArXiv)</a></li>
-        <li>L. Brice, J.-F. Raskin, M. van den Bogaard, "The Complexity of Subgame-perfect Equilibria in Mean-payoff Games", ICALP 2022 <a href="https://arxiv.org/pdf/2202.08499" target="_blank">(ArXiv)</a></li>
+        <li>L. Brice, J.-F. Raskin, M. van den Bogaard, "The Complexity of SPEs in Mean-payoff Games", ICALP 2022 <a href="https://arxiv.org/pdf/2202.08499" target="_blank">(ArXiv)</a></li>
         <li>L. Brice, J.-F. Raskin, M. van den Bogaard, "Rational Verification and Checking for Nash and Subgame-perfect Equilibria in Graph Games", MFCS 2023 <a href="https://arxiv.org/pdf/2301.12913" target="_blank">(ArXiv)</a></li>
       </ul>
       <p><b>Strong secure equilibria:  </b>
@@ -86,7 +86,7 @@
         We studied the complexity of those problems in multiplayer games with payoffs defined with a parity condition, or with an external parity automaton.
       </p>
       <ul>
-        <li>L. Brice, J.-F. Raskin, M. Sassolas, G. Scerri, M. van den Bogaard, "Pessimism of the Will, Optimism of the Intellect: Fair Protocols with Malicious but Rational Agents", CSF 2025 <a href="https://arxiv.org/pdf/2405.18958" target="_blank">(ArXiv))</a></li> and LMCS 2023 <a href="https://lmcs.episciences.org/12466/pdf" target="_blank">(LMCS)</a></li>
+        <li>L. Brice, J.-F. Raskin, M. Sassolas, G. Scerri, M. van den Bogaard, "Pessimism of the Will, Optimism of the Intellect: Fair Protocols with Malicious but Rational Agents", CSF 2025 <a href="https://arxiv.org/pdf/2405.18958" target="_blank">(ArXiv)</a></li>
       </ul>
       <p><b>Risk-sensitive equilibria:  </b>
         In collaboration with T. Henzinger and K. Thejaswini, we studied a new notion of equilibrium, called <em>risk-sensitive equilibrium</em> (MFCS 2025).
@@ -95,27 +95,26 @@
         Risk-sensitive equilibria are defined from a partition of players, assuming that some are <em>pessimists</em>, and some <em>optimists</em>; they are strategy profiles from which no pessimist (resp. optimist) can deviate and improve the least (resp. greatest) payoff they get with positive probability.
       </p>
       <ul>
-        <li>L. Brice, T. Henzinger, K. S. Thejaswini, "Finding equilibria: simpler for pessimists, simplest for optimists", MFCS 2025 <a href="https://arxiv.org/pdf/2502.05316" target="_blank">(ArXiv))</a></li>
+        <li>L. Brice, T. Henzinger, K. S. Thejaswini, "Finding equilibria: simpler for pessimists, simplest for optimists", MFCS 2025 <a href="https://arxiv.org/pdf/2502.05316" target="_blank">(ArXiv)</a></li>
       </ul>
       <p><b>Robbins' problem:  </b>
         Robbins' problem is a famous open problem, one of the variants of the <em>secretary problem</em>.
         We used a Markov decision process approach to compute numerically better values than those formerly known (in <em>Principles of Verification: Cycling the Probabilistic Landscape</em>).
       </p>
       <ul>
-        <li>L. Brice, F. T. Bruss, A. Majumdar, J.-F. Raskin, "Algorithms for Robbins’ Problem Using Markov Decision Processes", in <em> Principles of Verification: Cycling the Probabilistic Landscape. Essays Dedicated to Joost-Pieter Katoen on the Occasion of His 60th Birthday</em> <a href="https://link.springer.com/chapter/10.1007/978-3-031-75775-4_2" target="_blank">(Springer))</a></li>
+        <li>L. Brice, F. T. Bruss, A. Majumdar, J.-F. Raskin, "Algorithms for Robbins’ Problem Using Markov Decision Processes", in <em> Principles of Verification: Cycling the Probabilistic Landscape. Essays Dedicated to Joost-Pieter Katoen on the Occasion of His 60th Birthday</em> <a href="https://link.springer.com/chapter/10.1007/978-3-031-75775-4_2" target="_blank">(Springer)</a></li>
       </ul>
       <p><b>Current research:  </b>
         I am currently working on concurrent zero-sum games, where a team of n players faces a single adversary.
         In two-player games, it is well-known that players need to randomise their strategies in order to play optimally.
         But by replacing one player by a team of players that cannot communicate, randomisation is much more restricted.
       </p>
-      <p><b>Some open problems I am interested in:  </b>
+      <p><b>Some other open problems I am interested in:  </b>
         <ul>
           <li>What is the complexity of the constrained existence problem of SPEs in Büchi games?
             (We have shown that it was NP-complete in the case of parity games, and even of co-Büchi games, but this case remains open.)</li>
           <li>Conjecture: for every positive ε, in every mean-payoff game, there exists a (possibly randomised) ε-SPE. (This result is known in the case of terminal reward games, and I believe it can be extended to mean-payoff games.)</li>
           <li>Conjecture: in every reachability (or parity) game, there exists a positional Nash equilibrium. </li>
-          <li>In concurrent zero-sum games where a team of n players faces a single adversary, what is the power of randomisation for the team?</li>
         </ul>
       </p>
       <p>My PhD thesis is available here: L. Brice, <em>Equilibria in Multiplayer Graph Games: An Algorithmic Study</em> <a href="https://difusion.ulb.ac.be/vufind/Record/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/391811/Holdings" target="_blank">(ULB)</a></p>
